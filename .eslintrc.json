@@ -24,9 +24,14 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "no-console": "off",
     "no-unused-expressions":"off",
-    "prettier/prettier": "error",
     "no-use-before-define": "off",
     "react-hooks/rules-of-hooks": "error",
     "react/jsx-props-no-spreading": "off",
